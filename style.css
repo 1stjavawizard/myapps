@@ -1,0 +1,59 @@
+
+body{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-image: url(images/bg2.PNG);
+    background-size: cover;   
+    background-repeat: no-repeat;
+}
+
+form{
+    width: 40%;
+    height: 40vh;
+    border-radius: 20px;
+    box-shadow: 5px 3px 3px magenta, -5px -3px 3px magenta;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.inputcontainer{
+    width:70%;
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.username{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border:none;
+    outline:0px;
+  
+}
+
+#eye{
+    text-align: center;
+    background-color: transparent;
+    cursor: pointer;
+    border:none;
+}
+
+#eyed{
+    color:white;
+}
+
+.pass{
+    background-color: transparent;
+    border:none;
+    outline:0px;
+    color:white;
+}
